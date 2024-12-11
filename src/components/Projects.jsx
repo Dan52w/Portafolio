@@ -1,8 +1,17 @@
 const Projects = () => {
     const divProject = "mx-2 px-2 flex items-center rounded-lg shadow-2xl bg-fond2/50 hover:scale-105 transform transition-transform duration-300 cursor-pointer";
+
+    const handleClickAerline = () => {
+        window.location.href="https://github.com/Dan52w/Aerolinea";
+    }
+    
+    const handleClickAjedrez = () => {
+        window.location.href="https://github.com/Dan52w/Ajedrez";
+    }
+
     return (
         <div className="flex my-2 justify-center" id="Project">
-            <div className={divProject} style={{ width: "500px", height: "200px" }}>
+            <div className={divProject} style={{ width: "500px", height: "200px" }} onClick={handleClickAerline}>
                 <div>
                     <img src="Aerolinia.png" alt="" className="h-40 rounded w-30 object-cover object-center mx-2 my-3"/>
                 </div>
@@ -19,7 +28,7 @@ const Projects = () => {
                     </div>
                 </div>
             </div>
-            <div className={divProject} style={{ width: "500px", height: "200px" }}>
+            <div className={divProject} style={{ width: "500px", height: "200px" }} onClick={handleClickAjedrez}>
                 <div>
                     <img src="Ajedrez.png" alt="" className="h-20 rounded w-25 object-cover object-center mx-2 my-3"/>
                 </div>

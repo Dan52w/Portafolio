@@ -1,3 +1,5 @@
+import Tooltip from "./tooltip"
+
 const AboutMe = () => {
     return (
         <div class="body-font" id="AboutMe">
@@ -16,6 +18,8 @@ const AboutMe = () => {
                         </div>
                         <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                             <p class="leading-relaxed text-lg mb-4 text-txt-colorS">Actualmente, mi enfoque principal está en el desarrollo web, con una especialización en el desarrollo Backend, donde destaco en la creación de APIs REST utilizando Java y Spring Boot. Sin embargo, también tengo sólidas habilidades como desarrollador Frontend, lo que me permite ofrecer soluciones Full Stack de manera eficiente. En cuanto a tecnologías, en el Frontend manejo HTML, CSS, JavaScript y React, mientras que en el Backend tengo experiencia con JWT, Java y Spring Boot, así como con Python y Django.</p>
+                            <p class="leading-relaxed text-center text-lg mb-4 text-txt-colorS">Aqui encontraras mi Linkedin, GitHub y mi CV</p>
+                            <Tooltip/>
                         </div>
                     </div>
                 </div>

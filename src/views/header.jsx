@@ -12,7 +12,7 @@ const Header = () => {
                     <a href="#AboutMe" className="mr-5 hover:text-txtHoverC">Sobre mi</a>
                     <a href="#Skill" className="mr-5 hover:text-txtHoverC">Skills</a>
                     <a href="#Project" className="mr-5 hover:text-txtHoverC">Proyectos</a>
-                    <a href="#" className="mr-5 hover:text-txtHoverC">Contacto</a>
+                    <p className="mr-5 hover:text-txtHoverC">danflorezmartinez@gmail.com</p>
                 </nav>
             </div>
         </header>
