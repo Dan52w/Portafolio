@@ -13,9 +13,7 @@ function App() {
     <>
       <Header/>
       <Layaut>
-        <Routes>
-          <Route path='/' element={<Inicio/>}/>
-        </Routes>
+          <Inicio/>
       </Layaut>
       <Footer/>
     </>
