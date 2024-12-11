@@ -10,28 +10,28 @@ const Skill = () => {
                 <div className={divClass}>
                     <h3 className={h3Class}>Back-End</h3>
                     <ul className={ulClass}>
-                        <li><img src="./src/assets/ico/icons8-logotipo-de-java-coffee-cup-50.png" alt="Java" className={imgClass}/></li>
-                        <li><img src="./src/assets/ico/icons8-logotipo-de-primavera-48.png" alt="Spring" className={imgClass}/></li>
-                        <li><img src="./src/assets/ico/icons8-jwt-48.png" alt="JWT" className={imgClass}/></li>
-                        <li><img src="./src/assets/ico/icons8-python-48.png" alt="Python" className={imgClass}/></li>
-                        <li><img src="./src/assets/ico/icons8-django-48.png" alt="Django"/></li>
+                        <li><img src="icons8-logotipo-de-java-coffee-cup-50.png" alt="Java" className={imgClass}/></li>
+                        <li><img src="icons8-logotipo-de-primavera-48.png" alt="Spring" className={imgClass}/></li>
+                        <li><img src="icons8-jwt-48.png" alt="JWT" className={imgClass}/></li>
+                        <li><img src="icons8-python-48.png" alt="Python" className={imgClass}/></li>
+                        <li><img src="icons8-django-48.png" alt="Django"/></li>
                     </ul>
                 </div>
                 <div className={divClass}>
                     <h3 className={h3Class}>Front-End</h3>
                     <ul className={ulClass}>
-                        <li><img src="./src/assets/ico/icons8-html-48.png"alt="HTML5"className={imgClass}/></li>
-                        <li><img src="./src/assets/ico/icons8-tailwindcss-48.png" alt="CSS3" className={imgClass}/></li>
-                        <li><img src="./src/assets/ico/icons8-javascript-48.png" alt="JavaScript" className={imgClass}/></li>
-                        <li><img src="./src/assets/ico/icons8-react-40.png" alt="React" className={imgClass}/></li>
+                        <li><img src="icons8-html-48.png"alt="HTML5"className={imgClass}/></li>
+                        <li><img src="icons8-tailwindcss-48.png" alt="CSS3" className={imgClass}/></li>
+                        <li><img src="icons8-javascript-48.png" alt="JavaScript" className={imgClass}/></li>
+                        <li><img src="icons8-react-40.png" alt="React" className={imgClass}/></li>
                     </ul>
                 </div>
                 <div className={divClass}>
                     <h3 className={h3Class}>Other Skills</h3>
                     <ul className={ulClass}>
-                        <li><img src="./src/assets/ico/icons8-docker-48.png" alt="Docker" className={imgClass}/></li>
-                        <li><img src="./src/assets/ico/icons8-github-64.png" alt="GitHub" className={imgClass}/></li>
-                        <li><img src="./src/assets/ico/icons8-postgresql-48.png" alt="GitHub" className={imgClass}/></li>
+                        <li><img src="icons8-docker-48.png" alt="Docker" className={imgClass}/></li>
+                        <li><img src="icons8-github-64.png" alt="GitHub" className={imgClass}/></li>
+                        <li><img src="icons8-postgresql-48.png" alt="GitHub" className={imgClass}/></li>
                     </ul>
                 </div>
             </div>
